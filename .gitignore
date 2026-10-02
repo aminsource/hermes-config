@@ -1,0 +1,33 @@
+# secrets / auth
+.env
+.env.*
+auth.json
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Hermes private/runtime state
+state.db
+state.db-*
+sessions/
+logs/
+cache/
+cron/
+memories/
+*.db
+*.sqlite
+*.sqlite3
+
+# Hermes skill-manager runtime metadata (leave on disk, don't sync)
+skills/.curator_*
+skills/.usage*
+skills/.locks/
+skills/.hub/
+skills/.bundled_manifest
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
